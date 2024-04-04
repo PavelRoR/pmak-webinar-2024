@@ -1,0 +1,48 @@
+-var path = '';
+-var head_url = '';
+-var head_title = 'Проективный метод современной психологии: Метафорические ассоциативные карты”';
+-var head_description = '5-ти дневный онлайн-практикум Жанны Абрамовой';
+-var styles = path+'css/styles.min.css';
+-var fav_ap = path+'favicon.svg';
+-var fav_ico = path+'favicon.ico';
+-var fav_png = path+'favicon.png';
+-var libs = path+'js/libs.min.js';
+-var scripts = path+'js/scripts.min.js';
+-var noref = true
+//- -var action = '';
+//- -var group = '';
+//- -var formId = '';
+//- -var formVc = '';
+//- -var footer_title = true
+//- -var oferta = 'https://mastervision.su/oferta.docx'
+-var io = true;
+-var href = '!#';
+
+mixin b(bwcl,cl,href,p, src, alt)
+	.button-wrapper(class=bwcl)
+		a.button(class=cl href=href)!=p
+			if img
+				+img(src, alt)
+mixin img(cl,src,alt)
+	img(class=cl src!=src alt=alt)
+mixin gt(cl,h3)
+	h3.general-title(class=cl)!=h3
+
+doctype html
+html(lang="ru")
+	head
+		include pug/head
+		include pug/scripts/head_scripts
+	body
+		include pug/scripts/body_top_scripts
+		.wrapper
+			include pug/main/1-main
+			include pug/main/2-plan
+			include pug/main/3-video
+			include pug/main/4-for
+			include pug/main/5-why
+			include pug/main/6-author
+		include pug/base/2-footer
+		include pug/base/3-scripts
+		//- include pug/scripts/chat
+		include pug/scripts/body_bottom_scripts
