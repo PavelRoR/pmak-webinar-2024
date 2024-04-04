@@ -18,11 +18,8 @@
 -var io = true;
 -var href = '!#';
 
-mixin b(bwcl,cl,href,p, src, alt)
-	.button-wrapper(class=bwcl)
-		a.button(class=cl href=href)!=p
-			if img
-				+img(src, alt)
+mixin b(cl,href,p)
+	a.button(class=cl href=href)!=p
 mixin img(cl,src,alt)
 	img(class=cl src!=src alt=alt)
 mixin gt(cl,h3)
