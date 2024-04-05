@@ -24,6 +24,10 @@ mixin img(cl,src,alt)
 	img(class=cl src!=src alt=alt)
 mixin gt(cl,h3)
 	h3.general-title(class=cl)!=h3
+mixin fi(cl,im,n, p)
+	.for-item(class=cl)
+		+img('for-item-img', 'img/images/'+im+'-'+n+'.png', p)
+		p.for-item-text!=p
 
 doctype html
 html(lang="ru")
@@ -39,6 +43,7 @@ html(lang="ru")
 			include pug/main/4-for
 			include pug/main/5-why
 			include pug/main/6-author
+			include pug/main/7-revs
 		include pug/base/2-footer
 		include pug/base/3-scripts
 		//- include pug/scripts/chat
