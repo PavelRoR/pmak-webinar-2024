@@ -37,7 +37,14 @@ mobMenu.on('click', function () {
         })
     }
 });
+// Видео
+$(".video-wrapper-video").click(function () {
+       
+       
+        var a = $(this).attr("data-youtube");
+        $(this).css('backgroundImage','none').html('<iframe src="https://www.youtube.com/embed/' + a + '?showinfo=0&rel=0&autoplay=1&mute=1&modestbranding=1"  allowfullscreen></iframe>');
 
+});
     // слайдер с текстовыми отзывами
     $('.revs-slider-text').slick({
         autoplay: false,
@@ -49,10 +56,10 @@ mobMenu.on('click', function () {
         dots: 0,
         speed: 300,
         arrows: true,
-        centerPadding: '30px',
+        centerPadding: '20px',
         adaptiveHeight: true,
         centerMode: 0,
-        appendArrows: '.text-revs-arrows-2',
+        // appendArrows: '.text-revs-arrows-2',
         responsive: [
             // {
             //     breakpoint: 1200,

@@ -1,0 +1,64 @@
+#main
+	padding  0 0 60px
+	background: #252A26 url(../img/backs/main.png) no-repeat center center
+	background-size: cover
+	color #fff
+.main
+	&-pre
+		font-size: 28px
+		display inline-block
+		border-bottom: 2px solid #55B196
+		padding-bottom: 5px
+		margin-top: 75px
+	&-title
+		font-family: I
+		font-size: 28px
+		text-transform none
+		margin 30px 0
+		span
+			font-family: FSE
+			font-size: 48px
+			text-transform uppercase
+			position relative
+			display block
+			&:before
+				content: '”'
+				display block
+				position absolute
+				top 0
+				left -30px
+
+	&-date
+		font-size: 24px
+		font-weight: 900
+		color #55B196
+		line-height: 52px
+		span
+			display inline-block
+			&:last-of-type
+				margin-left: 20px
+				padding-left: 20px
+				position relative
+				&:before
+					content: ''
+					display block
+					position absolute
+					top 0
+					left 0
+					height: 100%
+					width 2px
+					background-color #fff
+	&-text
+		display flex
+		flex-direction: row
+		align-items: center
+		width 100%
+		max-width 460px
+		margin 20px 0 60px
+		img
+			margin-right: 20px
+		p
+			font-size: 18px
+			margin-top: -22px
+			span
+				font-weight: bold
