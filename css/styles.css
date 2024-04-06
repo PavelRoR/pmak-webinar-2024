@@ -385,6 +385,11 @@ body {
     font-size: 22px;
   }
 }
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 18px;
+  }
+}
 .wrapper {
   overflow: hidden;
 }
@@ -485,6 +490,11 @@ footer {
     padding: 25px 20px;
   }
 }
+@media screen and (max-width: 480px) {
+  .button {
+    font-size: 18px;
+  }
+}
 .button:focus {
   text-decoration: none;
   color: #fff;
@@ -499,6 +509,17 @@ footer {
   margin-bottom: 80px;
   color: #73431f;
 }
+@media screen and (max-width: 480px) {
+  .general-title {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 386px) {
+  .general-title {
+    font-size: 26px;
+  }
+}
 @media screen and (max-width: 991px) {
   .mob-none {
     display: none;
@@ -511,6 +532,11 @@ footer {
 @media screen and (max-width: 991px) {
   .general-subtitle {
     text-align: center;
+  }
+}
+@media screen and (max-width: 386px) {
+  .general-subtitle {
+    margin-top: 45px;
   }
 }
 .general-subtitle span {
@@ -547,11 +573,17 @@ header {
 }
 .header-logo {
   float: left;
+  width: 135px;
 }
 @media screen and (max-width: 991px) {
   .header-logo {
     float: none;
     width: 200px;
+  }
+}
+@media screen and (max-width: 386px) {
+  .header-logo {
+    width: 160px;
   }
 }
 #main {
@@ -582,6 +614,11 @@ header {
     font-size: 22px;
   }
 }
+@media screen and (max-width: 480px) {
+  .main-pre {
+    font-size: 20px;
+  }
+}
 .main-title {
   font-family: 'Inter', sans-serif;
   font-size: 28px;
@@ -591,6 +628,11 @@ header {
 @media screen and (max-width: 650px) {
   .main-title {
     font-size: 22px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main-title {
+    font-size: 20px;
   }
 }
 .main-title span {
@@ -603,20 +645,31 @@ header {
 }
 @media screen and (max-width: 650px) {
   .main-title span {
-    font-size: 42px;
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main-title span {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 386px) {
+  .main-title span {
+    font-size: 22px;
   }
 }
 .main-title span:before {
   content: '”';
   display: block;
-  position: relative;
-  top: 0;
+  position: absolute;
+  top: 5px;
   left: -30px;
 }
 @media screen and (max-width: 650px) {
   .main-title span:before {
+    position: relative;
     top: 0;
-    display: inline-block;
+    display: inline;
     left: 0;
   }
 }
@@ -626,6 +679,16 @@ header {
   color: #55b196;
   line-height: 52px;
 }
+@media screen and (max-width: 480px) {
+  .main-date {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 386px) {
+  .main-date {
+    font-size: 20px;
+  }
+}
 .main-date span {
   display: inline-block;
 }
@@ -633,6 +696,12 @@ header {
   margin-left: 20px;
   padding-left: 20px;
   position: relative;
+}
+@media screen and (max-width: 386px) {
+  .main-date span:last-of-type {
+    margin-left: 15px;
+    padding-left: 15px;
+  }
 }
 .main-date span:last-of-type:before {
   content: '';
@@ -664,8 +733,18 @@ header {
     max-width: none;
   }
 }
+@media screen and (max-width: 480px) {
+  .main-text {
+    margin-top: 40px;
+  }
+}
 .main-text img {
   margin-right: 20px;
+}
+@media screen and (max-width: 480px) {
+  .main-text img {
+    width: 80px;
+  }
 }
 .main-text p {
   font-size: 18px;
@@ -674,6 +753,16 @@ header {
 @media screen and (max-width: 650px) {
   .main-text p {
     font-size: 22px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main-text p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 386px) {
+  .main-text p {
+    font-size: 18px;
   }
 }
 .main-text p span {
@@ -685,6 +774,11 @@ header {
 @media screen and (max-width: 650px) {
   #plan {
     padding: 90px 0 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  #plan {
+    padding: 60px 0 0;
   }
 }
 .day {
@@ -706,6 +800,11 @@ header {
     padding: 115px 20px 30px 20px;
   }
 }
+@media screen and (max-width: 480px) {
+  .day {
+    padding: 80px 20px 20px 20px;
+  }
+}
 .day-num {
   position: absolute;
   font-family: 'FreeSetExtraCTTRegular', sans-serif;
@@ -713,6 +812,11 @@ header {
   color: #77ceb4;
   top: 20px;
   right: 20px;
+}
+@media screen and (max-width: 480px) {
+  .day-num {
+    font-size: 24px;
+  }
 }
 .day-title {
   font-size: 26px;
@@ -729,6 +833,16 @@ header {
 @media screen and (max-width: 650px) {
   .day-title {
     font-size: 36px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .day-title {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 386px) {
+  .day-title {
+    font-size: 22px;
   }
 }
 .day-text {
@@ -774,11 +888,21 @@ header {
     min-height: 1px;
   }
 }
+@media screen and (max-width: 386px) {
+  .for-item {
+    padding: 70px 30px 30px;
+  }
+}
 .for-item-deepgreen {
   background-color: #55b196;
   color: #fff;
   padding: 70px 40px 40px;
   font-weight: 600;
+}
+@media screen and (max-width: 386px) {
+  .for-item-deepgreen {
+    padding: 70px 30px 30px;
+  }
 }
 .for-item-img {
   position: absolute;
@@ -790,6 +914,11 @@ header {
 }
 #author {
   padding: 60px 0 90px;
+}
+@media screen and (max-width: 480px) {
+  #author {
+    padding: 60px 0;
+  }
 }
 .general-title-author {
   margin-top: 60px;
@@ -851,6 +980,12 @@ header {
 @media screen and (max-width: 650px) {
   .author-item {
     font-size: 24px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .author-item {
+    font-size: 18px;
+    padding: 40px 30px;
   }
 }
 #revs {
@@ -950,6 +1085,11 @@ header {
     background-color: #fff;
   }
 }
+@media screen and (max-width: 480px) {
+  #last {
+    padding: 0 0 60px;
+  }
+}
 footer {
   padding: 40px 0;
   font-size: 13px;
@@ -961,6 +1101,10 @@ footer {
 }
 footer a:focus,
 footer a:hover {
+  color: #000;
+}
+.footer-logo {
+  width: 113px;
   color: #000;
 }
 .footer-main {

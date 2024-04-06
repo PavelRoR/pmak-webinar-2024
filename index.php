@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php require('date/date.php');?><!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
@@ -33,7 +33,7 @@
           <header><a href="https://iomp.ru" target="_blank"><img class="header-logo" src="img/images/logo-1.svg" alt="Логотип"></a></header>
           <p class="main-pre">Онлайн практикум</p>
           <h1 class="main-title">Проективный метод современной психологии<span>Метафорические <br class="mob-none">ассоциативные карты”</span></h1>
-          <p class="main-date"><span>11.11.24 - 11.11.24</span><span>19:00</span></p>
+          <p class="main-date"><span><?= $dateDay1Text;?>.<?= $dateMonthTextP;?>.<?=$currentYear;?> - <?= $dateDay2Text;?>.<?= $dateMonthText;?>.<?=$currentYear;?></span><span>19:00</span></p>
           <div class="main-text"><img src="img/icons/main.svg" alt="Блокнот"/>
             <p>Примите участие в&nbsp;5-ти дневном практикуме и <span>получите сертификат </span></p>
           </div>

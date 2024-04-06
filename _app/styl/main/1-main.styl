@@ -16,6 +16,8 @@
 			margin-top: 0
 		@media screen and (max-width 650px)
 			font-size: 22px
+		@media screen and (max-width 480px)
+			font-size: 20px
 	&-title
 		font-family: I
 		font-size: 28px
@@ -23,6 +25,8 @@
 		margin 30px 0
 		@media screen and (max-width 650px)
 			font-size: 22px
+		@media screen and (max-width 480px)
+			font-size: 20px
 		span
 			font-family: FSE
 			font-size: 48px
@@ -31,28 +35,40 @@
 			display block
 			padding-top: 5px
 			@media screen and (max-width 650px)
-				font-size: 42px
+				font-size: 38px
+			@media screen and (max-width 480px)
+				font-size: 30px
+			@media screen and (max-width 386px)
+				font-size: 22px
 			&:before
 				content: '”'
 				display block
-				position relative
-				top 0
+				position absolute
+				top 5px
 				left -30px
 				@media screen and (max-width 650px)
+					position relative
 					top 0
-					display inline-block
+					display inline
 					left 0
 	&-date
 		font-size: 24px
 		font-weight: 900
 		color #55B196
 		line-height: 52px
+		@media screen and (max-width 480px)
+			font-size: 22px
+		@media screen and (max-width 386px)
+			font-size: 20px
 		span
 			display inline-block
 			&:last-of-type
 				margin-left: 20px
 				padding-left: 20px
 				position relative
+				@media screen and (max-width 386px)
+					margin-left: 15px
+					padding-left: 15px
 				&:before
 					content: ''
 					display block
@@ -71,12 +87,20 @@
 		margin 20px 0 60px
 		@media screen and (max-width 650px)
 			max-width none
+		@media screen and (max-width 480px)
+			margin-top: 40px
 		img
 			margin-right: 20px
+			@media screen and (max-width 480px)
+				width 80px
 		p
 			font-size: 18px
 			margin-top: -22px
 			@media screen and (max-width 650px)
 				font-size: 22px
+			@media screen and (max-width 480px)
+				font-size: 20px
+			@media screen and (max-width 386px)
+				font-size: 18px
 			span
 				font-weight: bold
