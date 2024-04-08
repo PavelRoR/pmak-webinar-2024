@@ -37,7 +37,7 @@
           <div class="main-text"><img src="img/icons/main.svg" alt="Блокнот"/>
             <p>Примите участие в&nbsp;5-ти дневном практикуме и <span>получите сертификат </span></p>
           </div>
-          <h4 class="general-subtitle">Зарегистрируйтесь прямо сейчас и получите <span>Авторскую колоду метафорических карт</span></h4><a class="button" href="!#">Принять участие</a>
+          <h4 class="general-subtitle general-subtitle-main">Зарегистрируйтесь прямо сейчас и получите <span>Авторскую колоду метафорических карт</span></h4><a class="button" href="!#">Принять участие</a>
         </div>
       </section>
       <section id="plan">
