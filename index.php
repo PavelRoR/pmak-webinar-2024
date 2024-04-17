@@ -205,7 +205,7 @@
                   <li><span>Более 10&nbsp;000</span> выпускников окончивших курсы и обучающие программы</li>
                   <li><span>Эксперт</span> федеральных каналов</li>
                   <li><span>Ведущий преподаватель</span> “Института современной психологии”</li>
-                  <li><span>Коуч, тренер</span>обучающих и трансформационных программ</li>
+                  <li><span>Коуч, тренер</span> обучающих и трансформационных программ</li>
                 </ul>
               </div>
             </div>
@@ -215,7 +215,7 @@
       <section id="revs">
         <div class="container">
           <h3 class="general-title">Отзывы о практикуме</h3>
-          <div class="revs-slider-text"><a class="text-rev-link" href="img/revs/text-1.jpg" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-1.min.jpg" alt="Отзыв 1"></a><a class="text-rev-link" href="img/revs/text-2.jpg" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-2.min.jpg" alt="Отзыв 2"></a><a class="text-rev-link" href="img/revs/text-3.jpg" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-3.min.jpg" alt="Отзыв 3"></a><a class="text-rev-link" href="img/revs/text-4.jpg" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-4.min.jpg" alt="Отзыв 4"></a><a class="text-rev-link" href="img/revs/text-5.jpg" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-5.min.jpg" alt="Отзыв 5"></a><a class="text-rev-link" href="img/revs/text-6.jpg" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-6.min.jpg" alt="Отзыв 6"></a><a class="text-rev-link" href="img/revs/text-7.jpg" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-7.min.jpg" alt="Отзыв 7"></a><a class="text-rev-link" href="img/revs/text-8.jpg" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-8.min.jpg" alt="Отзыв 8"></a>
+          <div class="revs-slider-text"><a class="text-rev-link" href="img/revs/text-1.png" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-1.png" alt="Отзыв 1"></a><a class="text-rev-link" href="img/revs/text-2.png" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-2.png" alt="Отзыв 2"></a><a class="text-rev-link" href="img/revs/text-3.png" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-3.png" alt="Отзыв 3"></a><a class="text-rev-link" href="img/revs/text-4.png" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-4.png" alt="Отзыв 4"></a><a class="text-rev-link" href="img/revs/text-5.png" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-5.png" alt="Отзыв 5"></a><a class="text-rev-link" href="img/revs/text-6.png" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-6.png" alt="Отзыв 6"></a><a class="text-rev-link" href="img/revs/text-7.png" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-7.png" alt="Отзыв 7"></a><a class="text-rev-link" href="img/revs/text-8.png" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-8.png" alt="Отзыв 8"></a><a class="text-rev-link" href="img/revs/text-9.png" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-9.png" alt="Отзыв 9"></a><a class="text-rev-link" href="img/revs/text-10.png" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-10.png" alt="Отзыв 10"></a>
           </div>
         </div>
       </section>
@@ -227,7 +227,7 @@
     </div>
     <footer>
       <div class="container">
-        <div class="footer-main"><a href="https://iomp.ru" target="_blank"><img class="footer-logo" src="img/images/logo-2.svg" alt="Логотип"></a>
+        <div class="footer-main"><a href="https://iomp.ru" target="_blank"><img class="footer-logo" src="img/images/logo-black.svg" alt="Логотип"></a>
           <div class="footer-info">
             <div class="footer-info-item">
               <p>125315, г. Москва, пр-кт Ленинградский, д. 68, стр. 24, эт/пом/ком 2/IV/20</p>
