@@ -1,18 +1,24 @@
 section#main
 	.container
 		include ../base/1-header
-		p.main-pre Онлайн практикум
-		h1.main-title Проективный метод современной психологии
-			span Метафорические 
-				br.mob-none
-				| ассоциативные карты”
-		p.main-date
-			span <?= $dateDay1Text;?>.<?= $dateMonthTextP;?>.<?=$currentYear;?> - <?= $dateDay2Text;?>.<?= $dateMonthText;?>.<?=$currentYear;?>
-			span 19:00
-		.main-text
-			+img('', 'img/icons/main.svg', 'Блокнот')
-			p Примите участие в&nbsp;5-ти дневном практикуме и 
-				span получите сертификат 
+		.content.content-main
+			.main-info
+				+img('main-img', 'img/images/main.png', 'Жанна Абрамова')
+				.mob-img-wrapper
+					+img('main-img-mob', 'img/images/main.png', 'Жанна Абрамова')
+					+img('main-img-mob-2', 'img/images/main-mob.png', 'Жанна Абрамова')
+				p.main-pre Онлайн практикум
+				h1.main-title Проективный метод современной психологии
+					span ”Метафорические 
+						br.mob-none
+					span ассоциативные карты”
+				p.main-date
+					span <?= $dateDay1Text;?>.<?= $dateMonthTextP;?>.<?=$currentYear;?> - <?= $dateDay2Text;?>.<?= $dateMonthText;?>.<?=$currentYear;?>
+					span 19:00
+				.main-text
+					+img('', 'img/icons/main.svg', 'Блокнот')
+					p Примите участие в&nbsp;5-ти дневном практикуме и 
+						span получите сертификат 
 		h4.general-subtitle.general-subtitle-main Зарегистрируйтесь прямо сейчас и получите 
 			span Авторскую колоду метафорических карт
 		+b('', href, 'Принять участие')

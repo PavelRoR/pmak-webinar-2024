@@ -16,10 +16,10 @@
 //- -var footer_title = true
 //- -var oferta = 'https://mastervision.su/oferta.docx'
 -var io = true;
--var href = '!#';
+-var href = 'javascript:void(0);';
 
 mixin b(cl,href,p)
-	a.button(class=cl href=href)!=p
+	a.button(class=cl href=href onclick="awoOpenFormModal(37)")!=p
 mixin img(cl,src,alt)
 	img(class=cl src!=src alt=alt)
 mixin gt(cl,h3)
@@ -47,5 +47,6 @@ html(lang="ru")
 			include pug/main/7-revs
 		include pug/base/2-footer
 		include pug/base/3-scripts
-		//- include pug/scripts/chat
+		<script src="https://shop.iomp.ru/?r=fp/admin/getformscript&id=37&vc=536853ff5ba5bdba63b77d744f9d7f15&popup=1&hideButton=1"></script>
+		include pug/scripts/chat
 		include pug/scripts/body_bottom_scripts

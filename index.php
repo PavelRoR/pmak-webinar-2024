@@ -30,14 +30,20 @@
     <div class="wrapper">
       <section id="main">
         <div class="container">
-          <header><a href="https://iomp.ru" target="_blank"><img class="header-logo" src="img/images/logo-1.svg" alt="Логотип"></a></header>
-          <p class="main-pre">Онлайн практикум</p>
-          <h1 class="main-title">Проективный метод современной психологии<span>Метафорические <br class="mob-none">ассоциативные карты”</span></h1>
-          <p class="main-date"><span><?= $dateDay1Text;?>.<?= $dateMonthTextP;?>.<?=$currentYear;?> - <?= $dateDay2Text;?>.<?= $dateMonthText;?>.<?=$currentYear;?></span><span>19:00</span></p>
-          <div class="main-text"><img src="img/icons/main.svg" alt="Блокнот"/>
-            <p>Примите участие в&nbsp;5-ти дневном практикуме и <span>получите сертификат </span></p>
+          <header><a href="https://iomp.ru" target="_blank"><img class="header-logo" src="img/images/logo-black.svg" alt="Логотип"></a></header>
+          <div class="content content-main">
+            <div class="main-info"><img class="main-img" src="img/images/main.png" alt="Жанна Абрамова"/>
+              <div class="mob-img-wrapper"><img class="main-img-mob" src="img/images/main.png" alt="Жанна Абрамова"/><img class="main-img-mob-2" src="img/images/main-mob.png" alt="Жанна Абрамова"/>
+              </div>
+              <p class="main-pre">Онлайн практикум</p>
+              <h1 class="main-title">Проективный метод современной психологии<span>”Метафорические <br class="mob-none"></span><span>ассоциативные карты”</span></h1>
+              <p class="main-date"><span><?= $dateDay1Text;?>.<?= $dateMonthTextP;?>.<?=$currentYear;?> - <?= $dateDay2Text;?>.<?= $dateMonthText;?>.<?=$currentYear;?></span><span>19:00</span></p>
+              <div class="main-text"><img src="img/icons/main.svg" alt="Блокнот"/>
+                <p>Примите участие в&nbsp;5-ти дневном практикуме и <span>получите сертификат </span></p>
+              </div>
+            </div>
           </div>
-          <h4 class="general-subtitle general-subtitle-main">Зарегистрируйтесь прямо сейчас и получите <span>Авторскую колоду метафорических карт</span></h4><a class="button" href="!#">Принять участие</a>
+          <h4 class="general-subtitle general-subtitle-main">Зарегистрируйтесь прямо сейчас и получите <span>Авторскую колоду метафорических карт</span></h4><a class="button" href="javascript:void(0);" onclick="awoOpenFormModal(37)">Принять участие</a>
         </div>
       </section>
       <section id="plan">
@@ -111,7 +117,7 @@
           <div class="video-wrapper video-wrapper-video" data-youtube="wL8DVHuWI7Y">
             <div></div>
           </div>
-          <h4 class="general-subtitle">Зарегистрируйтесь прямо сейчас и получите <span>Авторскую колоду метафорических карт</span></h4><a class="button" href="!#">Принять участие</a>
+          <h4 class="general-subtitle">Зарегистрируйтесь прямо сейчас и получите <span>Авторскую колоду метафорических карт</span></h4><a class="button" href="javascript:void(0);" onclick="awoOpenFormModal(37)">Принять участие</a>
         </div>
       </section>
       <section id="for">
@@ -151,7 +157,7 @@
               </div>
             </div>
           </div>
-          <h4 class="general-subtitle">Зарегистрируйтесь прямо сейчас и получите <span>Авторскую колоду метафорических карт</span></h4><a class="button" href="!#">Зарегистрироваться</a>
+          <h4 class="general-subtitle">Зарегистрируйтесь прямо сейчас и получите <span>Авторскую колоду метафорических карт</span></h4><a class="button" href="javascript:void(0);" onclick="awoOpenFormModal(37)">Зарегистрироваться</a>
         </div>
       </section>
       <section id="why">
@@ -186,7 +192,7 @@
               </div>
             </div>
           </div>
-          <h4 class="general-subtitle">Зарегистрируйтесь прямо сейчас и получите <span>Авторскую колоду метафорических карт</span></h4><a class="button" href="!#">Зарегистрироваться</a>
+          <h4 class="general-subtitle">Зарегистрируйтесь прямо сейчас и получите <span>Авторскую колоду метафорических карт</span></h4><a class="button" href="javascript:void(0);" onclick="awoOpenFormModal(37)">Зарегистрироваться</a>
         </div>
       </section>
       <section id="author">
@@ -221,7 +227,7 @@
       </section>
       <section id="last">
         <div class="container">
-          <h4 class="general-subtitle">Зарегистрируйтесь прямо сейчас и получите <span class="gs-brown">Авторскую колоду метафорических карт</span></h4><a class="button" href="!#">Зарегистрироваться</a>
+          <h4 class="general-subtitle">Зарегистрируйтесь прямо сейчас и получите <span class="gs-brown">Авторскую колоду метафорических карт</span></h4><a class="button" href="javascript:void(0);" onclick="awoOpenFormModal(37)">Зарегистрироваться</a>
         </div>
       </section>
     </div>
@@ -245,6 +251,9 @@
       </div>
     </footer>
     <script src="js/libs.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+    <script src="js/scripts.min.js"></script><script src="https://shop.iomp.ru/?r=fp/admin/getformscript&id=37&vc=536853ff5ba5bdba63b77d744f9d7f15&popup=1&hideButton=1"></script>
+    <!-- BEGIN CALLPY CODE {literal}  -->
+    <script>(function(w,t,p,v,c,f,s,r,h,l,d){w[p]="//callpy.com/";w[v]="5.10";w[c]=false;if(t==w){var tmp=l.callpy_data;if(tmp==null||!l.callpy_html||!l[c]){w[f]=false}else{w[f]=true;w[s]=JSON.parse(tmp);var tm=new Date().getTime();if(tm-w[s].lastSave<20000){if(w[s].insertcode){eval(w[s].insertcode)}else{w[f]=false}}else{w[f]=false}}}else{w[f]=false}var callpy_script=d.createElement("script");try{var tmp=parent.window.location.href?1:0}catch(e){var tmp=0}callpy_script.type="text/javascript";callpy_script.async=true;if(!w[f]||!l[h]){l[h]=new Date().getTime()}callpy_script.src=w[p]+"c/"+w.location.host.replace(/www./i,"")+"/"+(t==w?(w[f]?1:2):(tmp==1?4:3))+".js?id=19509&m="+l[h];callpy_script.onload=function(){iowisp.init()};d.body.appendChild(callpy_script)})(window,window.top,"callpy_path","callpy_version","tiny","sven","callpy_storage","callpy_chat_scroller","callpy_lastchat",localStorage,document);</script>
+    <!-- {/literal} END CALLPY CODE  -->
   </body>
 </html>
