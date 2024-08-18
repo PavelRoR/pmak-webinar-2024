@@ -1,0 +1,102 @@
+.black-wrapper
+	position relative
+	z-index 42
+	margin-bottom: -60px
+	border-radius: 58px 58px 0 0
+	background-color #000
+	// padding 200px 0
+#why
+	padding 260px 0 200px
+.why-item
+	&s
+		display flex
+		flex-direction: row
+		flex-wrap: wrap
+		align-items: flex-start
+		justify-content: space-between
+	border-radius: 30px
+	background-color: #DFF4FD
+	text-align center
+	padding 50px 20px
+	color #000
+	min-height 194px
+	margin 0 0 26px
+	width 100%
+	max-width 265px
+	display flex
+	align-items: center
+	justify-content: center
+
+// #plan
+// 	padding 200px 0
+.plan
+	&-wrapper
+		position relative
+		img
+			display block
+			width 100%
+			height auto
+	// &-title
+.plan-wrapper-title
+	position absolute
+	top 0
+	left  0
+	padding 40px 80px
+.general-title-plan
+	margin-bottom: 20px
+.plan-button
+	position: absolute
+	bottom: 40px
+	left 80px
+	background-image: none
+	text-align left
+	color #000
+	font-weight: normal
+	&:focus
+	&:hover
+		color #000
+	&:before
+	&:after
+		content: ''
+		display block
+		width 42px
+		height: 3px
+		background-color: #000
+		position absolute
+		top calc(50% - 1px)
+		right 40px
+	&:after
+		transform: rotate(90deg)
+.general-list-plan
+	padding-top: 80px
+
+#plan-filling
+	padding 200px 0 260px
+.general-title-plan-filling
+	margin-top: 70px
+.plan-filling-info
+	background-color #fff
+	border-radius: 69px
+	padding 90px
+	&-list
+		margin-bottom: 100px
+		li
+			margin-bottom: 50px
+			list-style: none
+			padding-left: 42px
+			position relative
+			font-size: 28px
+			font-weight: bold
+			color #000
+			&:last-child
+				margin-bottom: 0
+			&:before
+				content: ''
+				display block
+				position absolute
+				width 10px
+				height: 10px
+				border-radius: 50%
+				background-color: #4E97B6
+				top 7px
+				left 0
