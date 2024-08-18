@@ -12,7 +12,7 @@ section#prices
 					p.cost-text с&nbsp;учетом гранта
 					p.cost.cost-full вместо 
 						span 149&nbsp;000&nbsp;р.
-					+b('', '', 'Забронировать место')
+					+b('button-cost', '', 'Забронировать место')
 			.packet
 				.packet-head
 					h4.packet-head-title 6 месяцев
@@ -22,15 +22,18 @@ section#prices
 					p.cost-text с&nbsp;учетом гранта
 					p.cost.cost-full вместо 
 						span 249&nbsp;000&nbsp;р.
-					+b('', '', 'Забронировать место')
+					+b('button-cost', '', 'Забронировать место')
 			p.packet-or или
 		p.prices-text Минимальный платеж по&nbsp;рассрочке 
 			span от 4125 руб\мес
 		.instalment
-			.instalment-col-1
-				h4.instalment-title
+			.instalment-col.instalment-col-1
+				h4.instalment-title Рассрочка от&nbsp;банка партнера
 				ul.instalment-list
-			.instalment-col-2
+					li На&nbsp;3, 6, 12 или 24 месяцев
+					li Без&nbsp;первоначального взноса
+					li Без&nbsp;переплат
+			.instalment-col.instalment-col-2
 				+img('instalment-img', 'img/images/t.png', 'Тинькоф')
 				.instalment-text
 					p Рассрочка доступна также гражданам 
