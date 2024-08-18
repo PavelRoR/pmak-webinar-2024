@@ -952,7 +952,12 @@ header {
 }
 @media screen and (max-width: 425px) {
   .general-subtitle-main {
-    margin-top: 20%;
+    margin-top: 15%;
+  }
+}
+@media screen and (max-width: 386px) {
+  .general-subtitle-main {
+    margin-top: 12%;
   }
 }
 .main-info {

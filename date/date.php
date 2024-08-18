@@ -47,7 +47,7 @@ $currentDate = new DateTime("now");
 
 // Если время меньше 2 ночи, старт берем со вчера
 if ( $currentDate->format('H') > 0 ) :
-$currentDate->modify('+1 day');
+// $currentDate->modify('+1 day');
 
 endif;
 

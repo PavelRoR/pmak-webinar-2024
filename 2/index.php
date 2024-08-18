@@ -1,4 +1,4 @@
-<?php require('date/date.php');?><!DOCTYPE html>
+<?php require('../date/date.php');?><!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
@@ -8,13 +8,13 @@
     <meta property="og:title" content="Проективный метод современной психологии: Метафорические ассоциативные карты”">
     <meta property="og:description" content="5-ти дневный онлайн-практикум Жанны Абрамовой">
     <title>Проективный метод современной психологии: Метафорические ассоциативные карты”. 5-ти дневный онлайн-практикум Жанны Абрамовой</title>
-    <link rel="apple-touch-icon" href="favicon.svg">
-    <link rel="apple-touch-icon" sizes="76x76" href="favicon.svg">
-    <link rel="apple-touch-icon" sizes="120x120" href="favicon.svg">
-    <link rel="apple-touch-icon" sizes="152x152" href="favicon.svg">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
-    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="apple-touch-icon" href="../favicon.svg">
+    <link rel="apple-touch-icon" sizes="76x76" href="../favicon.svg">
+    <link rel="apple-touch-icon" sizes="120x120" href="../favicon.svg">
+    <link rel="apple-touch-icon" sizes="152x152" href="../favicon.svg">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png">
+    <link rel="stylesheet" href="../css/styles.min.css">
     <!-- AutoWebOffice counter -->
     <script type="text/javascript">if (awoUtmData === undefined) {var awoUtmData = awoUtmData || {};awoUtmData['subdomain'] = 'iomp';(function() {var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;d.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'iomp.autoweboffice.ru/js/utm.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(d, s);})();}</script><!-- /AutoWebOffice counter -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -34,20 +34,20 @@
     <div class="wrapper">
       <section id="main">
         <div class="container">
-          <header><a href="https://iomp.ru" target="_blank"><img class="header-logo" src="img/images/logo-black.svg" alt="Логотип"></a></header>
+          <header><a href="https://iomp.ru" target="_blank"><img class="header-logo" src="../img/images/logo-black.svg" alt="Логотип"></a></header>
           <div class="content content-main">
-            <div class="main-info"><img class="main-img" src="img/images/main.png" alt="Жанна Абрамова"/>
-              <div class="mob-img-wrapper"><img class="main-img-mob" src="img/images/main.png" alt="Жанна Абрамова"/><img class="main-img-mob-2" src="img/images/main-mob.png" alt="Жанна Абрамова"/>
+            <div class="main-info"><img class="main-img" src="../img/images/main.png" alt="Жанна Абрамова"/>
+              <div class="mob-img-wrapper"><img class="main-img-mob" src="../img/images/main.png" alt="Жанна Абрамова"/><img class="main-img-mob-2" src="../img/images/main-mob.png" alt="Жанна Абрамова"/>
               </div>
               <p class="main-pre">Онлайн практикум</p>
               <h1 class="main-title">Проективный метод современной психологии<span>”Метафорические <br class="mob-none"></span><span>ассоциативные карты”</span></h1>
               <p class="main-date"><span><?= $dateDay1Text;?>.<?= $dateMonthTextP;?>.<?=$currentYear;?> - <?= $dateDay2Text;?>.<?= $dateMonthText;?>.<?=$currentYear;?></span><span>19:00</span></p>
-              <div class="main-text"><img src="img/icons/main.svg" alt="Блокнот"/>
+              <div class="main-text"><img src="../img/icons/main.svg" alt="Блокнот"/>
                 <p>Примите участие в&nbsp;5-ти дневном практикуме и <span>получите сертификат </span></p>
               </div>
             </div>
           </div>
-          <h4 class="general-subtitle general-subtitle-main">Зарегистрируйтесь прямо сейчас и получите <span>Авторскую колоду метафорических карт</span></h4><a class="button" href="javascript:void(0);" onclick="awoOpenFormModal(37)">Принять участие</a>
+          <h4 class="general-subtitle general-subtitle-main">Зарегистрируйтесь прямо сейчас и получите <span>Авторскую колоду метафорических карт</span></h4><a class="button" href="javascript:void(0);" onclick="awoOpenFormModal(59)">Принять участие</a>
         </div>
       </section>
       <section id="plan">
@@ -121,7 +121,7 @@
           <div class="video-wrapper video-wrapper-video" data-youtube="UlC7lV-AyKw">
             <div></div>
           </div>
-          <h4 class="general-subtitle">Зарегистрируйтесь прямо сейчас и получите <span>Авторскую колоду метафорических карт</span></h4><a class="button" href="javascript:void(0);" onclick="awoOpenFormModal(37)">Принять участие</a>
+          <h4 class="general-subtitle">Зарегистрируйтесь прямо сейчас и получите <span>Авторскую колоду метафорических карт</span></h4><a class="button" href="javascript:void(0);" onclick="awoOpenFormModal(59)">Принять участие</a>
         </div>
       </section>
       <section id="for">
@@ -129,39 +129,39 @@
           <h3 class="general-title">Почему не&nbsp;только психологам необходимо изучить метод современной проективной психологии - метафорические ассоциативные карты?</h3>
           <div class="row">
             <div class="col-md-4">
-              <div class="for-item"><img class="for-item-img" src="img/images/for-1.png" alt="Не&amp;nbsp;требуют профильного психологического образования для&amp;nbsp;использования."/>
+              <div class="for-item"><img class="for-item-img" src="../img/images/for-1.png" alt="Не&amp;nbsp;требуют профильного психологического образования для&amp;nbsp;использования."/>
                 <p class="for-item-text">Не&nbsp;требуют профильного психологического образования для&nbsp;использования.</p>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="for-item"><img class="for-item-img" src="img/images/for-2.png" alt="Подходят для&amp;nbsp;решения острых, сложных, на&amp;nbsp;первый взгляд нерешаемых, вопросов в&amp;nbsp;сфере отношений, финансов и предназначения."/>
+              <div class="for-item"><img class="for-item-img" src="../img/images/for-2.png" alt="Подходят для&amp;nbsp;решения острых, сложных, на&amp;nbsp;первый взгляд нерешаемых, вопросов в&amp;nbsp;сфере отношений, финансов и предназначения."/>
                 <p class="for-item-text">Подходят для&nbsp;решения острых, сложных, на&nbsp;первый взгляд нерешаемых, вопросов в&nbsp;сфере отношений, финансов и предназначения.</p>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="for-item"><img class="for-item-img" src="img/images/for-3.png" alt="Экологично извлекают необходимую информацию, не&amp;nbsp;насилуя психику."/>
+              <div class="for-item"><img class="for-item-img" src="../img/images/for-3.png" alt="Экологично извлекают необходимую информацию, не&amp;nbsp;насилуя психику."/>
                 <p class="for-item-text">Экологично извлекают необходимую информацию, не&nbsp;насилуя психику.</p>
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col-md-4">
-              <div class="for-item"><img class="for-item-img" src="img/images/for-4.png" alt="Подходят для&amp;nbsp;выстраивания доверительных отношений и коммуникаций с&amp;nbsp;детьми, через ассоциации вы узнаете о&amp;nbsp;своем ребенке больше, чем через “разговор по&amp;nbsp;душам”."/>
+              <div class="for-item"><img class="for-item-img" src="../img/images/for-4.png" alt="Подходят для&amp;nbsp;выстраивания доверительных отношений и коммуникаций с&amp;nbsp;детьми, через ассоциации вы узнаете о&amp;nbsp;своем ребенке больше, чем через “разговор по&amp;nbsp;душам”."/>
                 <p class="for-item-text">Подходят для&nbsp;выстраивания доверительных отношений и коммуникаций с&nbsp;детьми, через ассоциации вы узнаете о&nbsp;своем ребенке больше, чем через “разговор по&nbsp;душам”.</p>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="for-item"><img class="for-item-img" src="img/images/for-5.png" alt="Возможность проводить самоанализ и находить ответы в&amp;nbsp;сложных кризисных ситуациях."/>
+              <div class="for-item"><img class="for-item-img" src="../img/images/for-5.png" alt="Возможность проводить самоанализ и находить ответы в&amp;nbsp;сложных кризисных ситуациях."/>
                 <p class="for-item-text">Возможность проводить самоанализ и находить ответы в&nbsp;сложных кризисных ситуациях.</p>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="for-item"><img class="for-item-img" src="img/images/for-6.png" alt="Возможность начать консультационную деятельность и в&amp;nbsp;сжатые сроки выйти на&amp;nbsp;достойный доход."/>
+              <div class="for-item"><img class="for-item-img" src="../img/images/for-6.png" alt="Возможность начать консультационную деятельность и в&amp;nbsp;сжатые сроки выйти на&amp;nbsp;достойный доход."/>
                 <p class="for-item-text">Возможность начать консультационную деятельность и в&nbsp;сжатые сроки выйти на&nbsp;достойный доход.</p>
               </div>
             </div>
           </div>
-          <h4 class="general-subtitle">Зарегистрируйтесь прямо сейчас и получите <span>Авторскую колоду метафорических карт</span></h4><a class="button" href="javascript:void(0);" onclick="awoOpenFormModal(37)">Зарегистрироваться</a>
+          <h4 class="general-subtitle">Зарегистрируйтесь прямо сейчас и получите <span>Авторскую колоду метафорических карт</span></h4><a class="button" href="javascript:void(0);" onclick="awoOpenFormModal(59)">Зарегистрироваться</a>
         </div>
       </section>
       <section id="why">
@@ -169,41 +169,41 @@
           <h3 class="general-title">Почему психологам необходимо владеть метафорическими ассоциативными картами?</h3>
           <div class="row">
             <div class="col-md-4">
-              <div class="for-item for-item-deepgreen"><img class="for-item-img" src="img/images/why-1.png" alt="Данный проективный метод не&amp;nbsp;содержит в&amp;nbsp;себе строгих норм и ограничений, направлен на&amp;nbsp;качественный анализ."/>
+              <div class="for-item for-item-deepgreen"><img class="for-item-img" src="../img/images/why-1.png" alt="Данный проективный метод не&amp;nbsp;содержит в&amp;nbsp;себе строгих норм и ограничений, направлен на&amp;nbsp;качественный анализ."/>
                 <p class="for-item-text">Данный проективный метод не&nbsp;содержит в&nbsp;себе строгих норм и ограничений, направлен на&nbsp;качественный анализ.</p>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="for-item for-item-deepgreen"><img class="for-item-img" src="img/images/why-2.png" alt="Отличительной особенностью является максимально глубокое и целостное изучение личности, выявление скрытых мотивов, внутриличностных конфликтов и переживаний."/>
+              <div class="for-item for-item-deepgreen"><img class="for-item-img" src="../img/images/why-2.png" alt="Отличительной особенностью является максимально глубокое и целостное изучение личности, выявление скрытых мотивов, внутриличностных конфликтов и переживаний."/>
                 <p class="for-item-text">Отличительной особенностью является максимально глубокое и целостное изучение личности, выявление скрытых мотивов, внутриличностных конфликтов и переживаний.</p>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="for-item for-item-deepgreen"><img class="for-item-img" src="img/images/why-3.png" alt="Исключение ошибок в&amp;nbsp;работе, так как клиент самостоятельно извлекает всю информацию через ассоциативный ряд."/>
+              <div class="for-item for-item-deepgreen"><img class="for-item-img" src="../img/images/why-3.png" alt="Исключение ошибок в&amp;nbsp;работе, так как клиент самостоятельно извлекает всю информацию через ассоциативный ряд."/>
                 <p class="for-item-text">Исключение ошибок в&nbsp;работе, так как клиент самостоятельно извлекает всю информацию через ассоциативный ряд.</p>
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col-md-4 col-md-offset-4">
-              <div class="for-item for-item-deepgreen"><img class="for-item-img" src="img/images/why-4.png" alt="Быстрый выход на&amp;nbsp;результат, без&amp;nbsp;долгих сеансов психотерапии, изматывающих клиента и психолога."/>
+              <div class="for-item for-item-deepgreen"><img class="for-item-img" src="../img/images/why-4.png" alt="Быстрый выход на&amp;nbsp;результат, без&amp;nbsp;долгих сеансов психотерапии, изматывающих клиента и психолога."/>
                 <p class="for-item-text">Быстрый выход на&nbsp;результат, без&nbsp;долгих сеансов психотерапии, изматывающих клиента и психолога.</p>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="for-item for-item-deepgreen"><img class="for-item-img" src="img/images/why-5.png" alt="Выстраивают крепкие и долгосрочные контакты с&amp;nbsp;клиентом."/>
+              <div class="for-item for-item-deepgreen"><img class="for-item-img" src="../img/images/why-5.png" alt="Выстраивают крепкие и долгосрочные контакты с&amp;nbsp;клиентом."/>
                 <p class="for-item-text">Выстраивают крепкие и долгосрочные контакты с&nbsp;клиентом.</p>
               </div>
             </div>
           </div>
-          <h4 class="general-subtitle">Зарегистрируйтесь прямо сейчас и получите <span>Авторскую колоду метафорических карт</span></h4><a class="button" href="javascript:void(0);" onclick="awoOpenFormModal(37)">Зарегистрироваться</a>
+          <h4 class="general-subtitle">Зарегистрируйтесь прямо сейчас и получите <span>Авторскую колоду метафорических карт</span></h4><a class="button" href="javascript:void(0);" onclick="awoOpenFormModal(59)">Зарегистрироваться</a>
         </div>
       </section>
       <section id="author">
         <div class="container">
           <div class="row">
             <div class="col-md-5 col-md-push-7">
-              <h3 class="general-title general-title-author-mob">Жанна Абрамова</h3><img class="author-img" src="img/images/janna.png" alt="Жанна Абрамова"/>
+              <h3 class="general-title general-title-author-mob">Жанна Абрамова</h3><img class="author-img" src="../img/images/janna.png" alt="Жанна Абрамова"/>
             </div>
             <div class="col-md-7 col-md-pull-5">
               <h3 class="general-title general-title-author">Жанна Абрамова</h3>
@@ -225,19 +225,19 @@
       <section id="revs">
         <div class="container">
           <h3 class="general-title">Отзывы о практикуме</h3>
-          <div class="revs-slider-text"><a class="text-rev-link" href="img/revs/text-1.png" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-1.png" alt="Отзыв 1"></a><a class="text-rev-link" href="img/revs/text-2.png" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-2.png" alt="Отзыв 2"></a><a class="text-rev-link" href="img/revs/text-3.png" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-3.png" alt="Отзыв 3"></a><a class="text-rev-link" href="img/revs/text-4.png" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-4.png" alt="Отзыв 4"></a><a class="text-rev-link" href="img/revs/text-5.png" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-5.png" alt="Отзыв 5"></a><a class="text-rev-link" href="img/revs/text-6.png" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-6.png" alt="Отзыв 6"></a><a class="text-rev-link" href="img/revs/text-7.png" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-7.png" alt="Отзыв 7"></a><a class="text-rev-link" href="img/revs/text-8.png" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-8.png" alt="Отзыв 8"></a><a class="text-rev-link" href="img/revs/text-9.png" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-9.png" alt="Отзыв 9"></a><a class="text-rev-link" href="img/revs/text-10.png" data-fancybox="text-revs"><img class="text-rev-img" src="img/revs/text-10.png" alt="Отзыв 10"></a>
+          <div class="revs-slider-text"><a class="text-rev-link" href="../img/revs/text-1.png" data-fancybox="text-revs"><img class="text-rev-img" src="../img/revs/text-1.png" alt="Отзыв 1"></a><a class="text-rev-link" href="../img/revs/text-2.png" data-fancybox="text-revs"><img class="text-rev-img" src="../img/revs/text-2.png" alt="Отзыв 2"></a><a class="text-rev-link" href="../img/revs/text-3.png" data-fancybox="text-revs"><img class="text-rev-img" src="../img/revs/text-3.png" alt="Отзыв 3"></a><a class="text-rev-link" href="../img/revs/text-4.png" data-fancybox="text-revs"><img class="text-rev-img" src="../img/revs/text-4.png" alt="Отзыв 4"></a><a class="text-rev-link" href="../img/revs/text-5.png" data-fancybox="text-revs"><img class="text-rev-img" src="../img/revs/text-5.png" alt="Отзыв 5"></a><a class="text-rev-link" href="../img/revs/text-6.png" data-fancybox="text-revs"><img class="text-rev-img" src="../img/revs/text-6.png" alt="Отзыв 6"></a><a class="text-rev-link" href="../img/revs/text-7.png" data-fancybox="text-revs"><img class="text-rev-img" src="../img/revs/text-7.png" alt="Отзыв 7"></a><a class="text-rev-link" href="../img/revs/text-8.png" data-fancybox="text-revs"><img class="text-rev-img" src="../img/revs/text-8.png" alt="Отзыв 8"></a><a class="text-rev-link" href="../img/revs/text-9.png" data-fancybox="text-revs"><img class="text-rev-img" src="../img/revs/text-9.png" alt="Отзыв 9"></a><a class="text-rev-link" href="../img/revs/text-10.png" data-fancybox="text-revs"><img class="text-rev-img" src="../img/revs/text-10.png" alt="Отзыв 10"></a>
           </div>
         </div>
       </section>
       <section id="last">
         <div class="container">
-          <h4 class="general-subtitle">Зарегистрируйтесь прямо сейчас и получите <span class="gs-brown">Авторскую колоду метафорических карт</span></h4><a class="button" href="javascript:void(0);" onclick="awoOpenFormModal(37)">Зарегистрироваться</a>
+          <h4 class="general-subtitle">Зарегистрируйтесь прямо сейчас и получите <span class="gs-brown">Авторскую колоду метафорических карт</span></h4><a class="button" href="javascript:void(0);" onclick="awoOpenFormModal(59)">Зарегистрироваться</a>
         </div>
       </section>
     </div>
     <footer>
       <div class="container">
-        <div class="footer-main"><a href="https://iomp.ru" target="_blank"><img class="footer-logo" src="img/images/logo-black.svg" alt="Логотип"></a>
+        <div class="footer-main"><a href="https://iomp.ru" target="_blank"><img class="footer-logo" src="../img/images/logo-black.svg" alt="Логотип"></a>
           <div class="footer-info">
             <div class="footer-info-item">
               <p>125315, г. Москва, пр-кт Ленинградский, д. 68, стр. 24, эт/пом/ком 2/IV/20</p>
@@ -254,8 +254,8 @@
         <div class="footer-links"><a href="https://iomp.ru/privacy" target="_blank">Политика конфиденциальности.</a><a href="https://iomp.ru/public-offer" target="_blank">Публичная оферта.</a></div>
       </div>
     </footer>
-    <script src="js/libs.min.js"></script>
-    <script src="js/scripts.min.js"></script><script src="https://shop.iomp.ru/?r=fp/admin/getformscript&id=37&vc=536853ff5ba5bdba63b77d744f9d7f15&popup=1&hideButton=1"></script>
+    <script src="../js/libs.min.js"></script>
+    <script src="../js/scripts.min.js"></script><script src="https://shop.iomp.ru/?r=fp/admin/getformscript&id=59&vc=edb97d5cc5eaf4f90f470c26e796c819&popup=1&hideButton=1"></script>
     <!-- BEGIN CALLPY CODE {literal}  -->
     <script>(function(w,t,p,v,c,f,s,r,h,l,d){w[p]="//callpy.com/";w[v]="5.10";w[c]=false;if(t==w){var tmp=l.callpy_data;if(tmp==null||!l.callpy_html||!l[c]){w[f]=false}else{w[f]=true;w[s]=JSON.parse(tmp);var tm=new Date().getTime();if(tm-w[s].lastSave<20000){if(w[s].insertcode){eval(w[s].insertcode)}else{w[f]=false}}else{w[f]=false}}}else{w[f]=false}var callpy_script=d.createElement("script");try{var tmp=parent.window.location.href?1:0}catch(e){var tmp=0}callpy_script.type="text/javascript";callpy_script.async=true;if(!w[f]||!l[h]){l[h]=new Date().getTime()}callpy_script.src=w[p]+"c/"+w.location.host.replace(/www./i,"")+"/"+(t==w?(w[f]?1:2):(tmp==1?4:3))+".js?id=19509&m="+l[h];callpy_script.onload=function(){iowisp.init()};d.body.appendChild(callpy_script)})(window,window.top,"callpy_path","callpy_version","tiny","sven","callpy_storage","callpy_chat_scroller","callpy_lastchat",localStorage,document);</script>
     <!-- {/literal} END CALLPY CODE  -->
