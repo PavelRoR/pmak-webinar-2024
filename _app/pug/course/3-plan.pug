@@ -17,13 +17,14 @@
 	section#plan
 		.container
 			.plan-wrapper
-				+img('', 'img/backs/course-plan.png', 'План курса')
+				+img('mob-none-560', 'img/backs/course-plan.png', 'План курса')
+				+img('d-none-560', 'img/backs/course-plan-mob.png', 'План курса')
 				.plan-wrapper-title
 					h3.general-title.general-title-white.general-title-plan Программа курса
 					p.plan-text Программа дипломного курса из&nbsp;53 видео-уроков:
 						br
 						| продолжительность каждого урока - 2-3&nbsp;часа
-				+b('plan-button', '#!', 'Подробнее')
+				+b('plan-button', '', 'Подробнее')
 			.row
 				.col-md-10.col-md-offset-1
 					ul.general-list.general-list-white.general-list-plan
@@ -87,10 +88,12 @@
 		.container
 			.row
 				.col-md-5
-					h4.general-title.general-title-plan-filling
+					h4.general-title.general-title-plan-filling.mob-none
 						span В&nbsp;обучение входит
 				.col-md-7
 					.plan-filling-info
+						h4.general-title.general-title-plan-filling.d-none
+							span В&nbsp;обучение входит
 						ul.plan-filling-info-list
 							li 53&nbsp;урока
 							li закрытый чат курса

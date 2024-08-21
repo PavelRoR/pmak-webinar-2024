@@ -5,30 +5,27 @@ header
 .header-logo
 	float left
 	width 178px
-	@media screen and (max-width 991px)
+	@media screen and (max-width 767px)
 		float: none
-	@media screen and (max-width 550px)
-		width 65px
+	@media screen and (max-width 560px)
+		width 115px
 .header-menu
 	float: right
 	text-align center
 	margin-top: 18px
+	@media screen and (max-width 767px)
+		display none
 	li
 		display inline-block
 		list-style: none
 		margin-left: 30px
-		@media screen and (max-width 1199px)
-			margin-left: 10px
 		@media screen and (max-width 991px)
-			text-align left
-			display block
+			margin-left: 10px
 		&:first-child
 			margin-left: 0
 		a
 			display block
 			color #fff
-			@media screen and (max-width 1199px)
-				padding 7px 26px
 			@media screen and (max-width 991px)
 				font-size: 15px
 				border-radius: 0

@@ -19,7 +19,6 @@ $(".video-wrapper-video").click(function () {
     // слайдер с текстовыми отзывами
     $('.revs-slider-text').slick({
         autoplay: false,
-        autoplaySpeed: 3000,
         slidesToShow: 3,
         slidesToScroll: 1,
         infinite: false,
@@ -28,26 +27,47 @@ $(".video-wrapper-video").click(function () {
         speed: 300,
         arrows: false,
         centerPadding: '40px',
-        adaptiveHeight: true,
+        adaptiveHeight: false,
         centerMode: 0,
+        // initialSlide: -1,
         // appendArrows: '.text-revs-arrows-2',
         responsive: [
-            // {
-            //     breakpoint: 1200,
-            //     settings: {
-            //         slidesToShow: 3
-            //     }},
-            // {
-            // breakpoint: 992,
-            // settings: {
-            //     slidesToShow: 2
-            // }},
+             {
+                 breakpoint: 1200,
+                 settings: {
+                     slidesToShow: 2
+                 }},
             {
-            breakpoint: 1200,
+            breakpoint: 767,
+            
             settings: {
-                slidesToShow: 1
+                slidesToShow: 1,
+                // initialSlide: -1,
+                centerPadding: '60px'
+            },
+            breakpoint: 386,
+            
+            settings: {
+                slidesToShow: 3,
+                initialSlide: -1,
+                centerPadding: '0px'
             }
-        }]
+        }
+            // {
+            // breakpoint: 1200,
+            // settings: {
+            //     slidesToShow: 1
+            // }
+        // }
+    ]
+    });
+
+    // План
+    $('.plan-button').on('click', function(e){
+        e.preventDefault();
+        var plan = $('.general-list-plan');
+        plan.toggle("slow")
+        $(this).toggleClass('active');
     });
 
     // модалка

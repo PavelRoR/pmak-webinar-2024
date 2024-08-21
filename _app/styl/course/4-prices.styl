@@ -5,6 +5,16 @@
 	position relative
 	z-index 43
 	background-color #fff
+	@media screen and (max-width 1199px)
+		padding 100px 0 160px
+	@media screen and (max-width 560px)
+		padding 60px 0 160px
+		margin-bottom: -40px
+		border-radius: 40px 40px 0 0
+	@media screen and (max-width 386px)
+		padding 60px 0 125px
+		margin-bottom: -25px
+		border-radius: 25px 25px 0 0
 .packet
 	&s
 		position relative
@@ -15,6 +25,8 @@
 	width 100%
 	max-width 540px
 	text-align center
+	@media screen and (max-width 1199px)
+		max-width: 440px
 	&-head
 		background-color: #000
 		border-radius: 69px 69px 0 0
@@ -57,6 +69,8 @@
 	font-weight: 900
 	&-sale
 		font-size: 90px
+		@media screen and (max-width 1199px)
+			font-size: 75px
 	&-full
 		color #4E97B6
 		font-size: 40px
@@ -75,6 +89,14 @@
 	font-size: 28px
 	margin 135px 0
 	color #000
+	@media screen and (max-width 1199px)
+		margin 100px 0
+	@media screen and (max-width 560px)
+		font-size: 24px
+		margin 90px 0
+	@media screen and (max-width 386px)
+		font-size: 18px
+		margin 40px 0
 	span
 		display inline-block
 		font-weight: bold
@@ -90,17 +112,40 @@
 	display flex
 	flex-direction: row
 	align-items: center
+	flex-wrap: wrap
 	justify-content: space-between
 	color #000
+	@media screen and (max-width 991px)
+		flex-direction: column
+		padding 50px 60px
+	@media screen and (max-width 560px)
+		padding 40px 50px
+		border-radius: 40px
+	@media screen and (max-width 386px)
+		padding 30px 20px
+		border-radius: 20px
 	.instalment-col-1
 		width 53%
+		@media screen and (max-width 991px)
+			width 100%
 	.instalment-col-2
 		width 44%
+		@media screen and (max-width 991px)
+			width 100%
 	&-title
 		font-family: S
 		font-size: 56px
 		font-weight: bold
 		margin-bottom: 50px
+		@media screen and (max-width 1199px)
+			font-size: 46px
+		@media screen and (max-width 991px)
+			margin-bottom: 0
+			font-size: 36px
+		@media screen and (max-width 560px)
+			font-size: 32
+		@media screen and (max-width 386px)
+			font-size: 26px
 	&-list
 		li
 			font-size: 28px
@@ -110,14 +155,37 @@
 			background: url(../img/icons/list-arrow.svg) no-repeat top 9px left
 			&:last-child
 				margin-bottom: 0
+			@media screen and (max-width 560px)
+				background-size: 12px auto
+				background-position: top 9px left 
+				font-size: 22px
+			@media screen and (max-width 386px)
+				font-size: 18px
+				margin-bottom: 15px
+				background-position: top 7px left 
+				padding-left: 20px
 	&-img
 		display block
 		margin 50px auto
+		width 100%
+		@media screen and (max-width 560px)
+			margin 35px auto 30px
 	&-text
 		border-radius: 55px
 		border: 3px solid #40BDAE
 		padding: 20px 45px 30px
 		font-size: 28px
 		color #40BDAE
+		@media screen and (max-width 991px)
+			margin-top: 50px
+		@media screen and (max-width 560px)
+			font-size: 24px
+			margin-top: 25px
+			border-radius: 40px
+			padding 20px 30px
+		@media screen and (max-width 386px)
+			font-size: 18px
+			border-radius: 20px
+			padding 20px
 		span
 			font-weight: bold
