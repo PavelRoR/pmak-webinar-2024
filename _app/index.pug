@@ -44,6 +44,8 @@ html(lang="ru")
 		|
 		| <!-- End Meta Pixel Code -->
 	body
+		script
+			window.YaAuthSuggest.init({client_id: '1aa15e73c84b4ee0b6b939e0cfa9a6fb',response_type: 'token',redirect_uri: 'https://shop.iomp.ru/shop/integration/admin/processtoken'},https://shop.iomp.ru/,{view: "button",parentId: "buttonContainerId",buttonSize: 'm',buttonView: 'main',buttonTheme: 'light',buttonBorderRadius: "0",buttonIcon: 'ya',}).then(({handler}) => handler()).then(data => console.log('Сообщение с токеном', data)).catch(error => console.log('Обработка ошибки', error))
 		include pug/scripts/body_top_scripts
 		.wrapper
 			include pug/main/1-main

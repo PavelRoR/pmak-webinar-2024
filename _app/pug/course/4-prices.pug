@@ -2,7 +2,7 @@ section#prices
 	.container
 		h3.general-title
 			span Стоимость курса
-		.packets
+		.packets.mob-none
 			.packet
 				.packet-head
 					h4.packet-head-title 3 месяца
@@ -23,7 +23,30 @@ section#prices
 					p.cost.cost-full вместо 
 						span 249&nbsp;000&nbsp;р.
 					a.button(class='button-cost' href='#!' onclick="awoOpenFormModal(57)") Забронировать место
+				p.packet-or или
+	.packets.owl-carousel.packets-c.d-none
+		.packet
+			.packet-head
+				h4.packet-head-title 3 месяца
+					small Ускоренное обучение
+			.packet-body
+				p.cost.cost-sale 99&nbsp;000&nbsp;р.
+				p.cost-text с&nbsp;учетом гранта
+				p.cost.cost-full вместо 
+					span 149&nbsp;000&nbsp;р.
+				a.button(class='button-cost' href='#!' onclick="awoOpenFormModal(57)") Забронировать место
+		.packet
+			.packet-head
+				h4.packet-head-title 6 месяцев
+					small Базовый
+			.packet-body
+				p.cost.cost-sale 199&nbsp;000&nbsp;р.
+				p.cost-text с&nbsp;учетом гранта
+				p.cost.cost-full вместо 
+					span 249&nbsp;000&nbsp;р.
+				a.button(class='button-cost' href='#!' onclick="awoOpenFormModal(57)") Забронировать место
 			p.packet-or или
+	.container
 		p.prices-text Минимальный платеж по&nbsp;рассрочке 
 			span от 4125 руб\мес
 		.instalment

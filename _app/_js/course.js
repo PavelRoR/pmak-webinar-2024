@@ -9,57 +9,84 @@ $(document).ready(function() {
         }, 1500)
     });
 // Видео
-$(".video-wrapper-video").click(function () {
+// $(".video-wrapper-video").click(function () {
        
        
-        var a = $(this).attr("data-youtube");
-        $(this).css('backgroundImage','none').html('<iframe src="https://www.youtube.com/embed/' + a + '?showinfo=0&rel=0&autoplay=1&mute=1&modestbranding=1"  allowfullscreen></iframe>');
+//         var a = $(this).attr("data-youtube");
+//         $(this).css('backgroundImage','none').html('<iframe src="https://www.youtube.com/embed/' + a + '?showinfo=0&rel=0&autoplay=1&mute=1&modestbranding=1"  allowfullscreen></iframe>');
 
-});
-    // слайдер с текстовыми отзывами
-    $('.revs-slider-text').slick({
-        autoplay: false,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        infinite: false,
-        loop: false,
-        dots: 0,
-        speed: 300,
-        arrows: false,
-        centerPadding: '40px',
-        adaptiveHeight: false,
-        centerMode: 0,
-        // initialSlide: -1,
-        // appendArrows: '.text-revs-arrows-2',
-        responsive: [
-             {
-                 breakpoint: 1200,
-                 settings: {
-                     slidesToShow: 2
-                 }},
-            {
-            breakpoint: 767,
-            
-            settings: {
-                slidesToShow: 1,
-                // initialSlide: -1,
-                centerPadding: '60px'
+// });
+    // слайдер с ценами
+    $('.why-items-owl').owlCarousel({
+        items:2,
+        loop:false,
+        center:false,
+        margin:0,
+        nav: false,
+        autoWidth:true,
+        autoHeight: true,
+        // URLhashListener:true,
+        // autoplayHoverPause:true,
+        // startPosition: 'URLHash',
+        responsive:{
+            0:{
+                items:1,
+                center: false
+                // margin: 20
             },
-            breakpoint: 386,
-            
-            settings: {
-                slidesToShow: 3,
-                initialSlide: -1,
-                centerPadding: '0px'
+            768:{
+                items:2,
+                center:false
             }
         }
-            // {
-            // breakpoint: 1200,
-            // settings: {
-            //     slidesToShow: 1
-            // }
-        // }
-    ]
+    });
+    $('.packets-c').owlCarousel({
+        items:2,
+        loop:false,
+        center:false,
+        margin:10,
+        nav: false,
+        autoWidth:true,
+        // autoHeight: true,
+        // URLhashListener:true,
+        // autoplayHoverPause:true,
+        // startPosition: 'URLHash',
+        responsive:{
+            0:{
+                items:1
+            },
+            768:{
+                items:2,
+                margin: 15,
+                center:false
+            }
+        }
+    });
+    // слайдер с текстовыми отзывами
+    $('.revs-slider-text').owlCarousel({
+        items:3,
+        loop:false,
+        center:false,
+        margin:20,
+        nav: false,
+        // URLhashListener:true,
+        // autoplayHoverPause:true,
+        // startPosition: 'URLHash',
+        responsive:{
+            0:{
+                items:2,
+                center: false,
+                autoWidth:true,
+                // margin: 20
+            },
+            // 386:{
+            //     items:2,
+            //     // margin:20
+            // },
+            561:{
+                items:3
+            }
+        }
     });
 
     // План

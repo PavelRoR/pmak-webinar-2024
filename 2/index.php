@@ -1,4 +1,4 @@
-<?php require('../date/date.php');?><!DOCTYPE html>
+<?php require('date/date.php');?><!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
@@ -36,13 +36,13 @@
         <div class="container">
           <header><a href="https://iomp.ru" target="_blank"><img class="header-logo" src="../img/images/logo-black.svg" alt="Логотип"></a></header>
           <div class="content content-main">
-            <div class="main-info"><img class="main-img" src="../img/images/main.png" alt="Жанна Абрамова"/>
-              <div class="mob-img-wrapper"><img class="main-img-mob" src="../img/images/main.png" alt="Жанна Абрамова"/><img class="main-img-mob-2" src="../img/images/main-mob.png" alt="Жанна Абрамова"/>
+            <div class="main-info"><img class="main-img" src="img/images/main.png" alt="Жанна Абрамова"/>
+              <div class="mob-img-wrapper"><img class="main-img-mob" src="img/images/main.png" alt="Жанна Абрамова"/><img class="main-img-mob-2" src="img/images/main-mob.png" alt="Жанна Абрамова"/>
               </div>
               <p class="main-pre">Онлайн практикум</p>
               <h1 class="main-title">Проективный метод современной психологии<span>”Метафорические <br class="mob-none"></span><span>ассоциативные карты”</span></h1>
               <p class="main-date"><span><?= $dateDay1Text;?>.<?= $dateMonthTextP;?>.<?=$currentYear;?> - <?= $dateDay2Text;?>.<?= $dateMonthText;?>.<?=$currentYear;?></span><span>19:00</span></p>
-              <div class="main-text"><img src="../img/icons/main.svg" alt="Блокнот"/>
+              <div class="main-text"><img src="img/icons/main.svg" alt="Блокнот"/>
                 <p>Примите участие в&nbsp;5-ти дневном практикуме и <span>получите сертификат </span></p>
               </div>
             </div>
@@ -129,34 +129,34 @@
           <h3 class="general-title">Почему не&nbsp;только психологам необходимо изучить метод современной проективной психологии - метафорические ассоциативные карты?</h3>
           <div class="row">
             <div class="col-md-4">
-              <div class="for-item"><img class="for-item-img" src="../img/images/for-1.png" alt="Не&amp;nbsp;требуют профильного психологического образования для&amp;nbsp;использования."/>
+              <div class="for-item"><img class="for-item-img" src="img/images/for-1.png" alt="Не&amp;nbsp;требуют профильного психологического образования для&amp;nbsp;использования."/>
                 <p class="for-item-text">Не&nbsp;требуют профильного психологического образования для&nbsp;использования.</p>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="for-item"><img class="for-item-img" src="../img/images/for-2.png" alt="Подходят для&amp;nbsp;решения острых, сложных, на&amp;nbsp;первый взгляд нерешаемых, вопросов в&amp;nbsp;сфере отношений, финансов и предназначения."/>
+              <div class="for-item"><img class="for-item-img" src="img/images/for-2.png" alt="Подходят для&amp;nbsp;решения острых, сложных, на&amp;nbsp;первый взгляд нерешаемых, вопросов в&amp;nbsp;сфере отношений, финансов и предназначения."/>
                 <p class="for-item-text">Подходят для&nbsp;решения острых, сложных, на&nbsp;первый взгляд нерешаемых, вопросов в&nbsp;сфере отношений, финансов и предназначения.</p>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="for-item"><img class="for-item-img" src="../img/images/for-3.png" alt="Экологично извлекают необходимую информацию, не&amp;nbsp;насилуя психику."/>
+              <div class="for-item"><img class="for-item-img" src="img/images/for-3.png" alt="Экологично извлекают необходимую информацию, не&amp;nbsp;насилуя психику."/>
                 <p class="for-item-text">Экологично извлекают необходимую информацию, не&nbsp;насилуя психику.</p>
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col-md-4">
-              <div class="for-item"><img class="for-item-img" src="../img/images/for-4.png" alt="Подходят для&amp;nbsp;выстраивания доверительных отношений и коммуникаций с&amp;nbsp;детьми, через ассоциации вы узнаете о&amp;nbsp;своем ребенке больше, чем через “разговор по&amp;nbsp;душам”."/>
+              <div class="for-item"><img class="for-item-img" src="img/images/for-4.png" alt="Подходят для&amp;nbsp;выстраивания доверительных отношений и коммуникаций с&amp;nbsp;детьми, через ассоциации вы узнаете о&amp;nbsp;своем ребенке больше, чем через “разговор по&amp;nbsp;душам”."/>
                 <p class="for-item-text">Подходят для&nbsp;выстраивания доверительных отношений и коммуникаций с&nbsp;детьми, через ассоциации вы узнаете о&nbsp;своем ребенке больше, чем через “разговор по&nbsp;душам”.</p>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="for-item"><img class="for-item-img" src="../img/images/for-5.png" alt="Возможность проводить самоанализ и находить ответы в&amp;nbsp;сложных кризисных ситуациях."/>
+              <div class="for-item"><img class="for-item-img" src="img/images/for-5.png" alt="Возможность проводить самоанализ и находить ответы в&amp;nbsp;сложных кризисных ситуациях."/>
                 <p class="for-item-text">Возможность проводить самоанализ и находить ответы в&nbsp;сложных кризисных ситуациях.</p>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="for-item"><img class="for-item-img" src="../img/images/for-6.png" alt="Возможность начать консультационную деятельность и в&amp;nbsp;сжатые сроки выйти на&amp;nbsp;достойный доход."/>
+              <div class="for-item"><img class="for-item-img" src="img/images/for-6.png" alt="Возможность начать консультационную деятельность и в&amp;nbsp;сжатые сроки выйти на&amp;nbsp;достойный доход."/>
                 <p class="for-item-text">Возможность начать консультационную деятельность и в&nbsp;сжатые сроки выйти на&nbsp;достойный доход.</p>
               </div>
             </div>
@@ -169,29 +169,29 @@
           <h3 class="general-title">Почему психологам необходимо владеть метафорическими ассоциативными картами?</h3>
           <div class="row">
             <div class="col-md-4">
-              <div class="for-item for-item-deepgreen"><img class="for-item-img" src="../img/images/why-1.png" alt="Данный проективный метод не&amp;nbsp;содержит в&amp;nbsp;себе строгих норм и ограничений, направлен на&amp;nbsp;качественный анализ."/>
+              <div class="for-item for-item-deepgreen"><img class="for-item-img" src="img/images/why-1.png" alt="Данный проективный метод не&amp;nbsp;содержит в&amp;nbsp;себе строгих норм и ограничений, направлен на&amp;nbsp;качественный анализ."/>
                 <p class="for-item-text">Данный проективный метод не&nbsp;содержит в&nbsp;себе строгих норм и ограничений, направлен на&nbsp;качественный анализ.</p>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="for-item for-item-deepgreen"><img class="for-item-img" src="../img/images/why-2.png" alt="Отличительной особенностью является максимально глубокое и целостное изучение личности, выявление скрытых мотивов, внутриличностных конфликтов и переживаний."/>
+              <div class="for-item for-item-deepgreen"><img class="for-item-img" src="img/images/why-2.png" alt="Отличительной особенностью является максимально глубокое и целостное изучение личности, выявление скрытых мотивов, внутриличностных конфликтов и переживаний."/>
                 <p class="for-item-text">Отличительной особенностью является максимально глубокое и целостное изучение личности, выявление скрытых мотивов, внутриличностных конфликтов и переживаний.</p>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="for-item for-item-deepgreen"><img class="for-item-img" src="../img/images/why-3.png" alt="Исключение ошибок в&amp;nbsp;работе, так как клиент самостоятельно извлекает всю информацию через ассоциативный ряд."/>
+              <div class="for-item for-item-deepgreen"><img class="for-item-img" src="img/images/why-3.png" alt="Исключение ошибок в&amp;nbsp;работе, так как клиент самостоятельно извлекает всю информацию через ассоциативный ряд."/>
                 <p class="for-item-text">Исключение ошибок в&nbsp;работе, так как клиент самостоятельно извлекает всю информацию через ассоциативный ряд.</p>
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col-md-4 col-md-offset-4">
-              <div class="for-item for-item-deepgreen"><img class="for-item-img" src="../img/images/why-4.png" alt="Быстрый выход на&amp;nbsp;результат, без&amp;nbsp;долгих сеансов психотерапии, изматывающих клиента и психолога."/>
+              <div class="for-item for-item-deepgreen"><img class="for-item-img" src="img/images/why-4.png" alt="Быстрый выход на&amp;nbsp;результат, без&amp;nbsp;долгих сеансов психотерапии, изматывающих клиента и психолога."/>
                 <p class="for-item-text">Быстрый выход на&nbsp;результат, без&nbsp;долгих сеансов психотерапии, изматывающих клиента и психолога.</p>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="for-item for-item-deepgreen"><img class="for-item-img" src="../img/images/why-5.png" alt="Выстраивают крепкие и долгосрочные контакты с&amp;nbsp;клиентом."/>
+              <div class="for-item for-item-deepgreen"><img class="for-item-img" src="img/images/why-5.png" alt="Выстраивают крепкие и долгосрочные контакты с&amp;nbsp;клиентом."/>
                 <p class="for-item-text">Выстраивают крепкие и долгосрочные контакты с&nbsp;клиентом.</p>
               </div>
             </div>
@@ -203,7 +203,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-5 col-md-push-7">
-              <h3 class="general-title general-title-author-mob">Жанна Абрамова</h3><img class="author-img" src="../img/images/janna.png" alt="Жанна Абрамова"/>
+              <h3 class="general-title general-title-author-mob">Жанна Абрамова</h3><img class="author-img" src="img/images/janna.png" alt="Жанна Абрамова"/>
             </div>
             <div class="col-md-7 col-md-pull-5">
               <h3 class="general-title general-title-author">Жанна Абрамова</h3>
@@ -211,7 +211,7 @@
                 <p class="author-item">SKOLKOVO TECH&nbsp;&&nbsp;INNOVATION Awards 2023 в&nbsp;номинации: <br>«Лучший бизнес расстановщик года».</p>
                 <ul class="general-list">
                   <li><span>Психотерапевт, клинический психолог</span></li>
-                  <li><span>Более 15&nbsp;лет</span> практической работы</li>
+                  <li><span>Более 20&nbsp;лет</span> практической работы</li>
                   <li><span>Более 10&nbsp;000</span> выпускников окончивших курсы и обучающие программы</li>
                   <li><span>Эксперт</span> федеральных каналов</li>
                   <li><span>Ведущий преподаватель</span> “Института современной психологии”</li>

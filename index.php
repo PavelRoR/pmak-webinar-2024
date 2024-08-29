@@ -26,6 +26,28 @@
     <!-- End Meta Pixel Code -->
   </head>
   <body>
+      <script>
+      window.YaAuthSuggest.init(
+        {
+      client_id: '1aa15e73c84b4ee0b6b939e0cfa9a6fb',
+      response_type: 'token',
+      redirect_uri: 'https://shop.iomp.ru/shop/integration/admin/processtoken'
+    },
+        https://shop.iomp.ru/,
+        {
+          view: "button",
+          parentId: "buttonContainerId",
+          buttonSize: 'm',
+          buttonView: 'main',
+          buttonTheme: 'light',
+          buttonBorderRadius: "0",
+          buttonIcon: 'ya',
+        }
+      )
+      .then(({handler}) => handler())
+      .then(data => console.log('Сообщение с токеном', data))
+      .catch(error => console.log('Обработка ошибки', error))
+    </script>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js", "ym"); ym(35450015, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true });</script>
     <noscript>
@@ -211,7 +233,7 @@
                 <p class="author-item">SKOLKOVO TECH&nbsp;&&nbsp;INNOVATION Awards 2023 в&nbsp;номинации: <br>«Лучший бизнес расстановщик года».</p>
                 <ul class="general-list">
                   <li><span>Психотерапевт, клинический психолог</span></li>
-                  <li><span>Более 15&nbsp;лет</span> практической работы</li>
+                  <li><span>Более 20&nbsp;лет</span> практической работы</li>
                   <li><span>Более 10&nbsp;000</span> выпускников окончивших курсы и обучающие программы</li>
                   <li><span>Эксперт</span> федеральных каналов</li>
                   <li><span>Ведущий преподаватель</span> “Института современной психологии”</li>
